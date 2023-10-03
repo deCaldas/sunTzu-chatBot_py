@@ -102,4 +102,3 @@ train_process = model.fit(np.array(train_x), np.array(train_y), epochs=100, batc
 
 # Guarda el modelo entrenado
 model.save("chatbot_model.h5", train_process)
-
